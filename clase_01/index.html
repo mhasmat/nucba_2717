@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 01</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      </tr>
+      <tr>
+        <td>9hs</td>
+        <td>8hs</td>
+        <td>7hs</td>
+        <td>6hs</td>
+        <td>5hs</td>
+      </tr>
+    </table>
+    <hr />
+    <h2>Formularios</h2>
+    <!-- Inputs de tipo 'text' -->
+
+    <label for="nombre">Nombre: </label>
+    <input type="text" id="nombre" placeholder="ingrese su nombre" />
+    <br />
+    <br />
+    <label for="apellido">Apellido: </label>
+    <input type="text" id="apellido" placeholder="ingrese su apellido" />
+    <br /><br />
+    <label for="edad">Edad: </label>
+    <input type="number" id="edad" placeholder="ingrese su edad" />
+    <br /><br />
+    <label for="correo">E-mail: </label>
+    <input type="email" id="correo" placeholder="ingrese su e-mail" />
+    <br /><br />
+    <label for="pass">Contraseña: </label>
+    <input
+      type="password"
+      id="pass"
+      placeholder="ingrese su contraseña"
+      required
+    />
+    <br /><br />
+    <label for="checkbox1">Soy un input de tipo checkbox</label>
+    <input type="checkbox" id="checkbox1" />
+    <br /><br />
+    <label for="checkbox2">Soy un input de tipo checkbox</label>
+    <input type="checkbox" id="checkbox2" checked />
+    <br /><br />
+
+    <span>Gusto de helado favorito:</span><br />
+    <input type="radio" id="chocolate" name="gustos" />
+    <label for="chocolate">Chocolate</label>
+    <br />
+    <input type="radio" id="dulce-de-leche" name="gustos" />
+    <label for="dulce-de-leche">Dulce de Leche</label>
+    <br />
+    <input type="radio" id="menta-granizada" name="gustos" />
+    <label for="menta-granizada">Menta Granizada</label>
+    <br />
+
+    <p>¿Jugamos?</p>
+    <select>
+      <option value="piedra">Piedra</option>
+      <option value="papel">Papel</option>
+      <option value="tijera">Tijera</option>
+    </select>
+    <br /><br />
+
+    <label for="texto">Soy un área de texto</label><br />
+    <textarea
+      id="texto"
+      cols="60"
+      rows="5"
+      placeholder="ingrese su texto"
+    ></textarea>
+    <br /><br />
+
+    <!-- Botones -->
+    <input type="submit" value="Soy un botón" />
+
+    <button type="submit">Soy otro botón</button>
+  </body>
+</html>
